@@ -5732,9 +5732,9 @@ function estado_cidade(idEstado,idCidade){
   }
 
 
-  estado = document.getElementById(idEstado)
-  cidade = document.getElementById(idCidade)
-  estados = content.estados
+  var estado = document.getElementById(idEstado)
+  var cidade = document.getElementById(idCidade)
+  var estados = content.estados
 
   for (var i = 0; i < estados.length; i++) {
     var option = document.createElement("option")
